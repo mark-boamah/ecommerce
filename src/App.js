@@ -4,10 +4,7 @@ import './categories.styles.scss'
 import Authentication from './routes/authentication/authentication.component';
 import Home from './routes/home/home.component';
 import Navigation from './routes/navigation/navigation.component';
-
-const Shop = () => {
-  return <div>I am the shop page</div>
-}
+import Shop from './routes/shop/shop.component';
 
 function App() {
   return (
